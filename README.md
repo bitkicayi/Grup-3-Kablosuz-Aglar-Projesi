@@ -8,7 +8,7 @@ Bu proje, Pycom LoPy4 cihazlarında çarpışma farkındalıklı zamanlama ile a
 
 ### LoPy4 Cihaz Modülleri
 
-#### 1. [Channel Monitor](lopy4/channel_monitor/README.md)
+#### 1. [Channel Monitor](lopy4/channel_monitor)
 WiFi kanal durumunu izler ve analiz eder. RSSI değerlerini, kanal doluluk oranını, çarpışma oranını ve komşu cihaz sayısını takip eder.
 
 **Ana Özellikler:**
@@ -35,7 +35,7 @@ Ana program, tüm modülleri koordine eder. WiFi bağlantısını yönetir, kana
 - ML tabanlı optimal delay hesaplama
 - Veri gönderim döngüsü
 
-#### 4. [ML Scheduler](lopy4/ml_scheduler/README.md)
+#### 4. [ML Scheduler](lopy4/ml_scheduler)
 Makine öğrenmesi tabanlı zamanlama yapar. Random Forest regresyon modeli kullanarak optimal bekleme süresini (delay) tahmin eder.
 
 **Ana Özellikler:**
