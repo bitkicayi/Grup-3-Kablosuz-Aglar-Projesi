@@ -17,7 +17,7 @@ WiFi kanal durumunu izler ve analiz eder. RSSI değerlerini, kanal doluluk oran�
 - Çarpışma oranı takibi
 - ML modeli için özellik hazırlama
 
-#### 2. [Data Sender](lopy4/data_sender/README.md)
+#### 2. [Data Sender](lopy4/data_sender)
 UDP üzerinden sunucuya veri paketleri gönderir. ACK mekanizması ile çarpışma tespiti yapar ve gerçek zamanlı kanal bilgilerini toplar.
 
 **Ana Özellikler:**
@@ -26,7 +26,7 @@ UDP üzerinden sunucuya veri paketleri gönderir. ACK mekanizması ile çarpış
 - Gerçek kanal bilgileri toplama
 - Paket oluşturma ve gönderim
 
-#### 3. [Main Program](lopy4/main/README.md)
+#### 3. [Main Program](lopy4/main)
 Ana program, tüm modülleri koordine eder. WiFi bağlantısını yönetir, kanal durumunu izler, ML tabanlı zamanlama yapar ve veri paketlerini gönderir.
 
 **Ana Özellikler:**
@@ -44,7 +44,7 @@ Makine öğrenmesi tabanlı zamanlama yapar. Random Forest regresyon modeli kull
 - Özellik vektörü hazırlama
 - Online öğrenme desteği
 
-#### 5. [WiFi Manager](lopy4/wifi_manager/README.md)
+#### 5. [WiFi Manager](lopy4/wifi_manager)
 WiFi bağlantısını yönetir. WiFi ağlarına bağlanma, bağlantı durumu kontrolü ve RSSI ölçümü yapar.
 
 **Ana Özellikler:**
@@ -55,7 +55,7 @@ WiFi bağlantısını yönetir. WiFi ağlarına bağlanma, bağlantı durumu kon
 
 ### Sunucu Modülü
 
-#### 6. [Data Collector](server/README.md)
+#### 6. [Data Collector](server)
 LoPy4 cihazlarından gelen UDP paketlerini alan ve kaydeden sunucu uygulaması. Çarpışma tespiti yapar, ACK paketleri gönderir ve tüm verileri CSV dosyasına kaydeder.
 
 **Ana Özellikler:**
