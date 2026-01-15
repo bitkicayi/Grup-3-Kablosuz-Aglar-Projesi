@@ -1,0 +1,4909 @@
+{
+  "type": "RandomForestRegressor",
+  "n_estimators": 100,
+  "feature_names": [
+    "rssi",
+    "channel_occupancy",
+    "collision_rate",
+    "neighbor_count",
+    "trend_rssi",
+    "inter_arrival_time",
+    "data_age",
+    "priority",
+    "hour"
+  ],
+  "trees": [
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.5000000149011612,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "leaf",
+          "value": 100.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.5000000149011612,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.5000000149011612,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.5000000149011612,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.6000000089406967,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },json kullanılmıyor
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.5000000149011612,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.5000000149011612,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.5000000149011612,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.5000000149011612,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.6000000089406967,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "rssi",
+            "threshold": -52.5,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.5000000149011612,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "trend_rssi",
+          "threshold": -47.5,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.5000000149011612,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "trend_rssi",
+          "threshold": -47.60000038146973,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.6000000089406967,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.5000000149011612,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "trend_rssi",
+          "threshold": -47.5,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.5000000149011612,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "trend_rssi",
+          "threshold": -47.60000038146973,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.5000000149011612,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.5000000149011612,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.5000000149011612,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.5000000149011612,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.5000000149011612,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.5000000149011612,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "trend_rssi",
+          "threshold": -47.5,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 2.5,
+      "left": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 1.5,
+        "left": {
+          "type": "leaf",
+          "value": 200.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      },
+      "right": {
+        "type": "node",
+        "feature": "collision_rate",
+        "threshold": 0.30000000447034836,
+        "left": {
+          "type": "leaf",
+          "value": 0.0
+        },
+        "right": {
+          "type": "node",
+          "feature": "rssi",
+          "threshold": -52.5,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node",
+      "feature": "priority",
+      "threshold": 1.5,
+      "left": {
+        "type": "leaf",
+        "value": 200.0
+      },
+      "right": {
+        "type": "node",
+        "feature": "priority",
+        "threshold": 2.5,
+        "left": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 100.0
+          },
+          "right": {
+            "type": "leaf",
+            "value": 200.0
+          }
+        },
+        "right": {
+          "type": "node",
+          "feature": "collision_rate",
+          "threshold": 0.30000000447034836,
+          "left": {
+            "type": "leaf",
+            "value": 0.0
+          },
+          "right": {
+            "type": "node",
+            "feature": "collision_rate",
+            "threshold": 0.5000000149011612,
+            "left": {
+              "type": "leaf",
+              "value": 100.0
+            },
+            "right": {
+              "type": "leaf",
+              "value": 200.0
+            }
+          }
+        }
+      }
+    }
+  ],
+  "note": "MicroPython icin basitlestirilmis RandomForest modeli"
+}
