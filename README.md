@@ -151,7 +151,7 @@ Toplanan veriler `server/data/collected_data.csv` dosyasına kaydedilir:
 
 ```csv
 timestamp,device_id,data_age,priority,rssi,channel_occupancy,collision_rate,neighbor_count,success,delay_used,collision_detected
-2024-01-15T12:34:56.789,1,1000,2,-75,0.6,0.3,2,1,200,0
+2026-01-15T12:34:56.789,1,1000,2,-75,0.6,0.3,2,1,200,0
 ```
 
 ## ML Modeli
